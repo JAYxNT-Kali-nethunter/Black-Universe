@@ -1,0 +1,103 @@
+*{
+    color: white;
+}
+
+body{
+    background-image: url(https://c0.wallpaperflare.com/preview/267/964/934/stars-sky-night.jpg);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+}
+.searchbox{
+    display: flex;
+    /* height: 45px; */
+    width: max-content;
+    align-items: center;
+    padding: 7px;
+    background-color: rgba(66, 66, 70, 0.5);
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.search-input{
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    color: white;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    background: transparent; 
+}
+
+.heading1{
+    text-decoration: none;
+}
+
+
+/* .section_1{
+    background-color: rgb(132, 129, 129, 0.5);
+    display: flex;
+    align-items: center;
+    /* margin-top: 100px; */
+}
+
+/* .pic1 {
+    box-shadow: 17px 8px 15px rgba(223, 221, 221, 0.7); 
+    margin-left : 120px;
+}  */
+
+/* .info1{
+    margin-left: 100px;
+    margin-right: 80px;
+} */
+
+/* .video-container{
+    width: 1300px;
+    height: 600px;
+    } */
+    
+    /* .section_2{
+        background-color: rgb(132, 129, 129, 0.5);
+    display: flex;
+    align-items: center;
+    /* margin-top: 100px; */
+} 
+
+/* .pic2 {
+    box-shadow: 17px 8px 15px rgba(223, 221, 221, 0.7); 
+    margin-top: 130px;
+    margin-left : 150px;
+} 
+
+.info2{
+    margin-left: 100px;
+    margin-right: 80px;
+}
+
+.div2{
+    transition: transform 3s ease 0s;
+}
+
+.div2:hover{
+    /* transform: scale(1.1); */
+}
+.box{
+    
+    height: 200px;
+    width: 200px;
+    background: var(--bg-color-blue);
+    transform: translateX(70vw);
+    animation: moveRotate 2s ease infinite atlernate-reverse;
+
+}
+
+@keyframes moveRotate {
+    to{
+        transform: translateX(-80vw) rotate(360deg) scale(5);
+    }
+}
+
+/* alternate hover effect may  be defined by me and you in this class which was simply and kindly names as box. */
